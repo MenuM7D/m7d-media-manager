@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحميل الفيديوهات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button id="menuBtn" class="menu-btn">☰</button>
+            <h1>𝐌7𝐃</h1>
+<hr>
+ 
+<h1>𝐌𝐄𝐃𝐈𝐀 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃<h1>
+        </header>
+        <main>
+            <input type="text" id="urlInput" placeholder="ضع رابط الفيديو هنا" />
+            <div id="videoPreview" style="display: none;">
+                <video id="videoPlayer" controls></video>
+                <button id="downloadBtn">تنزيل</button>
+            </div>
+            <p id="statusMessage"></p>
+        </main>
+        <footer></footer>
+    </div>
+
+    <!-- القائمة الجانبية -->
+    <aside id="sidebar" class="sidebar">
+        <button id="closeSidebar" class="close-btn">×</button>
+        <ul>
+            <li><a href="javascript:void(0)" id="privacyPolicyLink">سياسة الخصوصية 🔐</a></li>
+            <li><a href="https://taplink.cc/m7d.bot" target="_blank">منصات المطور 👑</a></li>
+            <li>
+                <span>المنصات المدعومة 🔗</span>
+                <ul>
+                    <li>𝑓𝑎𝑐𝑒𝑏𝑜𝑜𝑘</li>
+                    <li>𝑡𝑖𝑘𝑡𝑜𝑘</li>
+                    <li>𝑖𝑛𝑠𝑡𝑎𝑔𝑟𝑎𝑚</li>
+                </ul>
+            </li>
+        </ul>
+    </aside>
+
+    <div id="overlay" class="overlay"></div>
+
+    <!-- مربع منبثق لسياسة الخصوصية -->
+    <div id="privacyPolicyModal">
+        <p>اهلا بك يا صديقي في منصة التنزيل من المنصات الاسلس والافضل للتنزيل من مواقع التوصل الاجتماعي يمكنك تنزيل فيديوهات تيك توك او انستغرام او فيسبوك هنا بدون علامه مائيه وبأعلي جوده ممكنه جميع حقوق الخصوصيه الخاصه بك محفوظه وامنه جميع الفيديوهات الذي تشاركها وتنزلها من هنا مشفره تماماً ولا احد يراها غيرك جميع حقوقك محفوظه هنا</p>
+        <button id="closeModal">إغلاق</button>
+    </div>
+
+    <!-- زر الوضع الليلي -->
+    <div id="darkModeToggle" class="dark-mode-toggle">
+        🌙
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
