@@ -5,7 +5,7 @@
   "start_url": "https://m7d-media-manager.vercel.app/",
   "display": "standalone",
   "background_color": "linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045)",
-  "theme_color": "#000000",
+  "theme_color": "linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045)",
   "icons": [
     {
       "src": "icon.png",
