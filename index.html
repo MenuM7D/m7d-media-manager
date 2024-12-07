@@ -6,34 +6,12 @@
     <title>تحميل الفيديوهات</title>
     <link rel="stylesheet" href="styles.css">
 
+    <!-- إضافة رمز AdSense في علامة <head> -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1827728408286540"
+        crossorigin="anonymous"></script>
+
     <!-- إضافة رابط ملف الـ manifest -->
     <link rel="manifest" href="manifest.json">
-
-    <!-- إضافة بعض الأنماط لجعل الإعلانات بارزة -->
-    <style>
-        .advertisement-container {
-            width: 100%;
-            padding: 10px;
-            background-color: #f8f8f8;
-            border: 2px solid #ddd;
-            margin: 20px 0;
-            text-align: center;
-            position: relative;
-        }
-
-        .advertisement-container p {
-            font-size: 18px;
-            color: #333;
-            font-weight: bold;
-        }
-
-        .advertisement-container iframe, .advertisement-container div {
-            width: 100%;
-            height: 250px;
-            border: none;
-            margin-top: 10px;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
@@ -50,19 +28,12 @@
                 <button id="downloadBtn">تنزيل</button>
             </div>
             <p id="statusMessage"></p>
-        </main>
-        <footer>
-            <!-- الإعلان الأول -->
-            <div class="advertisement-container">
-                <script type='text/javascript' src='//pl25210120.profitablecpmrate.com/38/81/84/388184769198a537e62467f07e82f5ed.js'></script>
-            </div>
 
-            <!-- الإعلان الثاني -->
-            <div class="advertisement-container">
-                <script async="async" data-cfasync="false" src="//pl25200581.profitablecpmrate.com/e2bb7d2ea8d6edd703a95ae21891f59d/invoke.js"></script>
-                <div id="container-e2bb7d2ea8d6edd703a95ae21891f59d"></div>
-            </div>
-        </footer>
+            <!-- إضافة الإعلانات الأخرى -->
+            <script async="async" data-cfasync="false" src="//pl25200581.profitablecpmrate.com/e2bb7d2ea8d6edd703a95ae21891f59d/invoke.js"></script>
+            <div id="container-e2bb7d2ea8d6edd703a95ae21891f59d"></div>
+        </main>
+        <footer></footer>
     </div>
 
     <!-- القائمة الجانبية -->
@@ -80,6 +51,10 @@
                 </ul>
             </li>
         </ul>
+
+        <!-- إضافة الإعلانات داخل القائمة الجانبية -->
+        <script async="async" data-cfasync="false" src="//pl25200581.profitablecpmrate.com/e2bb7d2ea8d6edd703a95ae21891f59d/invoke.js"></script>
+        <div id="container-e2bb7d2ea8d6edd703a95ae21891f59d"></div>
     </aside>
 
     <div id="overlay" class="overlay"></div>
@@ -98,3 +73,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
