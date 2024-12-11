@@ -6,10 +6,6 @@
     <title>media download</title>
     <link rel="stylesheet" href="styles.css">
 
-    <!-- إضافة رمز AdSense في علامة <head> -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1827728408286540"
-        crossorigin="anonymous"></script>
-
     <!-- إضافة رابط ملف الـ manifest -->
     <link rel="manifest" href="manifest.json">
 </head>
@@ -28,10 +24,6 @@
                 <button id="downloadBtn">تنزيل</button>
             </div>
             <p id="statusMessage"></p>
-
-            <!-- إضافة الإعلانات الأخرى -->
-            <script async="async" data-cfasync="false" src="//pl25200581.profitablecpmrate.com/e2bb7d2ea8d6edd703a95ae21891f59d/invoke.js"></script>
-            <div id="container-e2bb7d2ea8d6edd703a95ae21891f59d"></div>
         </main>
         <footer></footer>
     </div>
@@ -51,10 +43,6 @@
                 </ul>
             </li>
         </ul>
-
-        <!-- إضافة الإعلانات داخل القائمة الجانبية -->
-        <script async="async" data-cfasync="false" src="//pl25200581.profitablecpmrate.com/e2bb7d2ea8d6edd703a95ae21891f59d/invoke.js"></script>
-        <div id="container-e2bb7d2ea8d6edd703a95ae21891f59d"></div>
     </aside>
 
     <div id="overlay" class="overlay"></div>
@@ -73,13 +61,12 @@
     <script src="script.js"></script>
     <script>
        if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/service-worker.js')
-            .then(() => console.log('Service Worker مسجل بنجاح'))
-            .catch(err => console.error('فشل التسجيل:', err));
-    });
+           window.addEventListener('load', () => {
+               navigator.serviceWorker.register('/service-worker.js')
+                   .then(() => console.log('Service Worker مسجل بنجاح'))
+                   .catch(err => console.error('فشل التسجيل:', err));
+           });
        }
-           <script>
+    </script>
 </body>
 </html>
-
